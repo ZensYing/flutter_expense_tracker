@@ -249,6 +249,7 @@ class _AddExpenseState extends State<AddExpense> {
                                         CreateExpense(expense),
                                       );
                                 },
+                                // ignore: sort_child_properties_last
                                 child: const Text(
                                   'Add Expense',
                                   style: TextStyle(fontSize: 18),

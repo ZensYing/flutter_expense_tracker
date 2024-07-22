@@ -18,6 +18,7 @@ class MainScreen extends StatelessWidget {
         padding: const EdgeInsets.symmetric(horizontal: 25.0, vertical: 10),
         child: Column(
           children: [
+            // ignore: avoid_unnecessary_containers
             Container(
               child: Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
